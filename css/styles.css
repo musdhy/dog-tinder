@@ -1,0 +1,211 @@
+#title{
+    background: #ff4668;
+    color: #fff;
+    position: relative;
+}
+
+body{
+    font-family: "montserrat-Thin";
+    font-weight: 300;
+    
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+.container{
+    padding-left: 0;
+    
+}
+
+/* navigation-brand styling */
+
+.navbar-brand{
+    font-weight: 700;
+    font-family: "ubuntu";
+    font-size: 1.5rem;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 20%;
+    transform: rotateZ(25deg);
+    position: absolute;
+    z-index: 0;
+    bottom: -162px;
+    right: 300px;
+}
+
+/* section 2 */
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    font-family: montserrat-thin;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#features h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5% 0;
+}
+
+#features i{
+    font-size: 40px;
+    color: #ff4668;
+}
+
+
+#features i:hover{
+    font-size: 45px;
+    color: #a13348;
+}
+
+#features p{
+    color: gray;
+}
+
+.box{
+    padding: 0 30px;
+}
+
+#testimonials{
+    text-align: center;
+    background: #ff4668;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+#testimonials h2{
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+#testimonials .test-img{
+    border-radius: 50%;
+    width: 20%;
+    margin: 30px;
+}
+
+#press{
+    background-color: #ff4668;
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+.multi{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+#pricing h2,h3{
+    font-size: 1.5rem;
+    font-family: montserrat;
+}
+
+#pricing .pricing-col{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4668;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta h3{
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 80px;
+    color: black;
+}
+
+#footer .icons{
+    padding-bottom: 15px;
+}
+
+#footer .icons a{
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+}
+
+#footer .icons a i:hover{
+    font-size: 30px;
+    color: rgb(15, 15, 15);
+}
+
+#footer .icons i{
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+#footer p{
+    font-size: 20px;
+    color: gray;
+    letter-spacing: 5px;
+}
+
+
+/* @media queries */
+
+@media (max-width: 991px) {
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+        height: 400px;
+        
+    }
+
+    /* .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    #title{
+        text-align: center;
+    }
+}
+
+
+
